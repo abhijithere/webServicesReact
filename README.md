@@ -1,1 +1,1 @@
-Basic React App
+React app

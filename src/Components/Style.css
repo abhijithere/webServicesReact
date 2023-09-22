@@ -1,0 +1,27 @@
+.active{
+   
+    color: #4bb0d4;
+    border-bottom: 3px solid #4bb0d4;
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+.animatedlg{
+    animation: up-down1 2.5s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down1{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
